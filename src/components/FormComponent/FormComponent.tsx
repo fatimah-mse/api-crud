@@ -49,7 +49,7 @@ export default function FormComponent({ title, handleSubmit }: Phone) {
 
     const handleSave = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
-        if (!phonename || !phoneprice || !phoneimg) {
+        if (!phonename || !phoneprice) {
             setAlert(true)
             setErr('You Have To fill all inputs to complete saving')
         } else {
