@@ -1,0 +1,8 @@
+.FM-dash-header {
+    width: calc(100vw - 18.75%);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    background-color: var(--primary-color);
+    z-index: -1;
+}

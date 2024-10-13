@@ -1,0 +1,48 @@
+.FM-show {
+    margin: 2.6667vh 7.1111vh;
+    height: calc(100vh - (2.6667vh * 2));
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.FM-return-logo {
+    width: 40px;
+    cursor: pointer;
+}
+
+.FM-phone-detail {
+    font-size: 3.75rem;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.FM-phone-name {
+    margin-top: 8.44444vh;
+}
+
+.FM-phone-img {
+    display: block;
+    width: 41.445vh;
+    height: 41.445vh;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.FM-phone-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.FM-phone-details .FM-phone-detail:nth-child(3) {
+    text-align: center;
+    width: 100%;
+    margin-top: 4.4444vh;
+}
+
+.FM-phone-details .FM-phone-detail span{
+    color: var(--span-color);
+    font-size: 2.5rem;
+    font-weight: 500;
+}

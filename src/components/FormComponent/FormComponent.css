@@ -1,0 +1,77 @@
+.FM-form {
+    margin: 2.6667vh 7.1111vh;
+}
+
+.FM-add-edit {
+    margin: 8.44444vh 0;
+}
+
+.FM-form-add-edit {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.FM-form-add-edit div{
+    display: flex;
+    flex-direction: column;
+}
+.FM-form-add-edit div:nth-child(1){
+    width: 39.91%;
+}
+
+.FM-form-add-edit div:nth-child(2){
+    width: 52.494%;
+}
+
+.FM-phone-lable {
+    font-weight: 500;
+    font-size: 2rem;
+    color: var(--lable-color);
+    margin-bottom: 1rem;
+}
+
+.FM-input {
+    border-radius: 4px;
+    border: 1px solid var(--input-border);
+    padding: 15px;
+    font-size: 0.75rem;
+}
+
+.FM-mb {
+    margin-bottom: 7.11111vh;
+}
+
+.FM-save {
+    display: block;
+    margin: auto;
+    margin-top: 13.3333vh;
+}
+
+.FM-img-control {
+    width: 100% !important;
+    height: 100%;
+    background-color: var(--off-white-color);
+    border: 1px dashed var(--img-border);
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.FM-img-control img{
+    height: 100%;
+    width: 200px;
+    object-fit: contain;
+}
+
+.FM-img-control input {
+    position: absolute;
+    right: 0;
+    transform: scale(3);
+    opacity: 0;
+    cursor: pointer;
+}

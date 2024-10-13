@@ -1,0 +1,67 @@
+.FM-side-bar {
+    padding: 2.1875rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 18.75%;
+    background-color: var(--off-white-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+.FM-focal-logo {
+    margin-bottom: 3.375rem;
+}
+
+.FM-profile-image {
+    margin-bottom: 1.125rem;
+    border-radius: 50%;
+    width: 8.8125rem;
+    height: 8.8125rem;
+    object-fit: contain;
+    background-color: var(--img-border);
+}
+
+.FM-full-name {
+    margin-bottom: 5.6875rem;
+    font-size: 1.0625rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--black-color);
+}
+
+.FM-side-link {
+    width: 12.0625rem;
+    height: 2.5625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--black-color);
+    border-radius: 4px;
+}
+
+.FM-logout {
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
+}
+
+.FM-side-link .FM-products-icon {
+    margin-right: 0.5rem;
+}
+
+.FM-bookmark-icon {
+    margin-right: 1.1875rem;
+}
+
+.FM-logout-icon {
+    margin-left: 1.4375rem;
+}

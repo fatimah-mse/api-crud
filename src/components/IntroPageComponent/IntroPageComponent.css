@@ -1,0 +1,108 @@
+.FM-intro {
+    background: linear-gradient(71.17deg, #FEAF00 19.35%, #F8D442 90.12%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FM-intro .FM-intro-div {
+    background-color: var(--white-color);
+    padding: 4.66666vh 30.06px;
+    text-align: center;
+    border-radius: 20px;
+    width: 32.9861111%;
+}
+
+.focal-logo {
+    margin-bottom: 4.66666vh;
+}
+
+.FM-sign {
+    text-transform: uppercase;
+    color: var(--black-color);
+    font-size: 1.375rem;
+    margin-bottom: 1vh;
+    font-weight: 600;
+}
+
+.FM-desc {
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(----lable-color);
+    margin-bottom: 5.55555vh;
+}
+
+.FM-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.FM-intro-form div label{
+    text-align: start;
+    display: block;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 0.875rem;
+    color: var(----lable-color);
+    margin-bottom: 1vh;
+}
+
+.FM-input-45 {
+    width: 48.306% !important;
+}
+
+.FM-intro-form div input{
+    width: 100%;
+    padding: 1vh;
+    border-radius: 4px;
+    border: 1px solid var(--input-border);
+    margin-bottom: 2.22222vh;
+}
+
+.FM-btn-form {
+    width: 100%;
+    color: var(--white-color);
+    text-transform: uppercase;
+    border: none;
+    border-radius: 4px;
+    padding: 1.55555vh;
+    margin-bottom: 2.999999vh;
+}
+
+.FM-sign-img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+    margin-bottom: 1.666666vh;
+    background-color: var(--off-white-color);
+    border: 1px dashed var(--img-border);
+    border-radius: 4px;
+}
+
+.FM-profile-img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.FM-sign-img input{
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+}
+
+.FM-p-form {
+    color: var(--lable-color);
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+.FM-link-form {
+    color: var(--yellow-color);
+    text-decoration: none;
+}

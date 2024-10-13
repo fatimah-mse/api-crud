@@ -1,0 +1,70 @@
+.FM-alert-parent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 999999;
+}
+.FM-alert {
+    position: fixed;
+    width: 65.834%;
+    height: 321px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    border-radius: 20px;
+    background-color: var(--white-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 999;
+    animation: fadeIn 0.4s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% { 
+        opacity: 0.5; 
+    }
+    100% { 
+        opacity: 1; 
+    }
+}
+
+.FM-msg {
+    color: var(--black-color);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.375rem;
+}
+
+.FM-btns {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.FM-btn {
+    width: 199px;
+    padding: 11px 0;
+    text-align: center;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: capitalize;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+@media screen and (max-width:992px) {
+    .FM-alert {
+        width: 80%;
+    }
+}
