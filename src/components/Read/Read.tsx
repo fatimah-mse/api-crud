@@ -76,7 +76,7 @@ export default function Read() {
                     setPhoneImg(res.data)
                     axios.get(res.data[0].image_url)
                     .then(response => {
-                        if (response.status===201) {
+                        if (response.status !== 201) {
                             setIsLinkValid(false)
                         } else {
                             setIsLinkValid(true)
@@ -119,7 +119,7 @@ export default function Read() {
                         currentItems.map((image, index) => {
                                 return (
                                     <div key={index} className="FM-phone-image-info">
-                                        <img className="FM-phone-image" src={isLinkValid ? image.image_url : product} alt={`Phone ${index}`} />
+                                        <img className="FM-phone-image" src={image.image_url} alt={`Phone ${index}`} />
                                         <div className="FM-phone-image-hover">
                                             <h3 onClick={() => Show(image.id)} className="FM-phones-name">{image.name}</h3>
                                             <div>
